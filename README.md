@@ -17,28 +17,28 @@ I am an **Information Systems Student** learning data analysis, working with SQL
 
 ## 📁 Academic & Student Projects
 
-### 1. 🚴 [Bike Sales Dashboard (Microsoft Excel)](./Excel%20Project%20dataset.xlsx)
-* **Overview:** A practice project analyzing customer demographics to see factors related to bicycle purchases.
-* **What I Did:** 
-  * Cleaned column values (expanding short codes like `M`/`S` and `M`/`F` into full words like `Married`/`Single` and `Male`/`Female`).
-  * Added an `Age Brackets` column to group customer ages into categories.
+### 1. 🚲 Bike Sales Dashboard (Microsoft Excel)
+* Overview: A practice project analyzing customer demographics to see factors related to bicycle purchases.
+* What I Did:
+  * Cleaned column values (expanding short codes like M`/`S and M`/`F into full words like Married`/`Single and `Male`/`Female`).
+  * Added an Age Brackets column to group customer ages into categories.
   * Built PivotTables and an Excel Dashboard to compare average income, commute distance, and age groups.
-
----
+* [View Excel Project Repository](https://github.com/NorahAbdulaziz33/Excel-Projects)
 
 ### 2. 🌍 World Layoffs Project (SQL)
-A practice project using **MySQL Workbench** to work through data cleaning and basic exploratory queries on a dataset of global tech layoffs
+A practice project using MySQL Workbench to work through data cleaning and basic exploratory queries on a dataset of global tech layoffs.
 
-#### 🧹 Data Cleaning ([`data cleaning project.sql`](./data%20cleaning%20project.sql))
-* **Duplicates:** Practiced identifying and deleting duplicate rows 
-* **Standardization:** Used `TRIM()` for extra spaces, standardized text variations (like `'Crypto'`), and formatted dates using `STR_TO_DATE()`
-* **Null Values:** Filled in missing industry fields using self-joins where matching company data existed
+* [View Complete SQL Projects Repository](https://github.com/NorahAbdulaziz33/Sql-Projects)
 
-#### 🔍 Exploratory Data Analysis ([`Exploratory data analysis.sql`](./Exploratory%20data%20analysis.sql))
-* **Aggregations:** Grouped layoffs by company, industry, stage, and country
-* **Rolling Totals:** Calculated cumulative totals over time using basic Window Functions
-* **Rankings:** Practiced using `DENSE_RANK()` inside CTEs to list top companies by layoffs each year
+#### 🧹 Data Cleaning
+* Duplicates: Practiced identifying and deleting duplicate rows.
+* Standardization: Used TRIM() for extra spaces, standardized text variations (like Crypto`), and formatted dates using `STR_TO_DATE().
+* Null Values: Filled in missing industry fields using self-joins where matching company data existed.
 
+#### 🔍 Exploratory Data Analysis
+* Aggregations: Grouped layoffs by company, industry, stage, and country.
+* Rolling Totals: Calculated cumulative totals over time using basic Window Functions.
+* Rankings: Practiced using DENSE_RANK() inside CTEs to list top companies by layoffs each year.
 ---
 
 📫 **Contact Me**
