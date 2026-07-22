@@ -1,51 +1,48 @@
 # 📊 Hi, I'm Norah! 👋
 
-I am an **Information Systems Student** passionate about data analysis, database management, and solving real-world problems through data.
+I am an **Information Systems Student** learning data analysis, working with SQL, and building practical skills through hands-on projects.
 
 ---
 
-## 🛠️ Key Skills & Certifications
+## 🛠️ Skills & Certifications
 
-* **Database & Querying:** SQL (MySQL Workbench), Data Cleaning, Exploratory Data Analysis (EDA)
-* **Data Analytics & Tools:** Python (Pandas, NumPy), Microsoft Excel (PivotTables, Clean Staging, Dashboard Design)
-* **Visualization & Web Apps:** Matplotlib, Streamlit
-* **Certifications:** 
+* **Database & Querying:** SQL (MySQL Workbench), Data Cleaning, Basic Exploratory Data Analysis (EDA)
+* **Data Tools:** Microsoft Excel (PivotTables & Dashboards), Python (Pandas, NumPy)
+* **Visualization:** Matplotlib, Streamlit
+* **Certifications & Training:** 
   * 🎓 [Microsoft Certified: Azure AI Fundamentals (AI-900)](https://learn.microsoft.com/api/credentials/share/en-us/NourahAziz-9804/7670838E163E5E9A?sharingId=7EC7030839378090)
-  * 📜 **Microsoft Azure Fundamentals (AZ-900 / Describe Azure Management & Governance)** – Spectrum Networks / ICAIRE Elevate[cite: 5]
-  * 📜 **Artificial Intelligence Concepts and Advanced Applications** – SDAIA (Saudi Data & AI Authority)[cite: 3]
-  * 📜 **Fundamentals of Artificial Intelligence** – SDAIA (Saudi Data & AI Authority)[cite: 4]
+  * 📜 **Microsoft Azure Fundamentals (AI Empowerment / ICAIRE Elevate Program)** – 26-Hour Intensive Training (Spectrum Networks / ICAIRE)[cite: 5]
 
 ---
 
-## 📁 Featured Projects
+## 📁 Academic & Student Projects
 
-### 1. 🚴 Bike Sales Interactive Dashboard (Microsoft Excel)
-* **Objective:** Analyze customer demographics to identify key drivers behind bicycle purchasing decisions.
-* **Data Cleaning & Preparation:** 
-  * Replaced abbreviated codes (e.g., `M`/`S` and `M`/`F`) with full descriptive labels (`Married`/`Single` and `Male`/`Female`).
-  * Engineered age categories (`Age Brackets`) to segment buyers across age demographics.
-* **Analysis & Visualization:** Built dynamic PivotTables and an interactive **Bike Sales Dashboard** tracking average income, commute distance, and age groups relative to purchase activity.
+### 1. 🚴 [Bike Sales Dashboard (Microsoft Excel)](./Excel%20Project%20dataset.xlsx)
+* **Overview:** A practice project analyzing customer demographics to see factors related to bicycle purchases.
+* **What I Did:** 
+  * Cleaned column values (expanding short codes like `M`/`S` and `M`/`F` into full words like `Married`/`Single` and `Male`/`Female`).
+  * Added an `Age Brackets` column to group customer ages into categories.
+  * Built PivotTables and an Excel Dashboard to compare average income, commute distance, and age groups.
 
 ---
 
-### 2. 🌍 World Layoffs Data Analysis (SQL)
-In this project, I used **MySQL Workbench** to perform end-to-end data processing on a global tech layoffs dataset[cite: 1, 2]:
+### 2. 🌍 World Layoffs Project (SQL)
+A practice project using **MySQL Workbench** to work through data cleaning and basic exploratory queries on a dataset of global tech layoffs[cite: 1, 2]:
 
 #### 🧹 Data Cleaning ([`data cleaning project.sql`](./data%20cleaning%20project.sql))
-* **Duplicates:** Removed duplicate entries using CTEs with `ROW_NUMBER() OVER(PARTITION BY...)`[cite: 1].
-* **Standardization:** Cleaned whitespace using `TRIM()`, unified industry values (e.g., standardizing variants to `'Crypto'`), and formatted dates using `STR_TO_DATE()`[cite: 1].
-* **Null Handling:** Populated missing industry records by joining matching company entries and removed uninformative rows[cite: 1].
+* **Duplicates:** Practiced identifying and deleting duplicate rows using CTEs and `ROW_NUMBER()`[cite: 1].
+* **Standardization:** Used `TRIM()` for extra spaces, standardized text variations (like `'Crypto'`), and formatted dates using `STR_TO_DATE()`[cite: 1].
+* **Null Values:** Filled in missing industry fields using self-joins where matching company data existed[cite: 1].
 
 #### 🔍 Exploratory Data Analysis ([`Exploratory data analysis.sql`](./Exploratory%20data%20analysis.sql))
-* **Aggregations:** Summarized total layoffs by Company, Industry, Stage, and Country[cite: 2].
-* **Rolling Totals:** Calculated monthly cumulative totals using Window Functions (`SUM() OVER()`)[cite: 2].
-* **Rankings:** Applied `DENSE_RANK()` inside CTEs to identify the top 5 companies per year by total layoffs[cite: 2].
+* **Aggregations:** Grouped layoffs by company, industry, stage, and country[cite: 2].
+* **Rolling Totals:** Calculated cumulative totals over time using basic Window Functions[cite: 2].
+* **Rankings:** Practiced using `DENSE_RANK()` inside CTEs to list top companies by layoffs each year[cite: 2].
 
 ---
 
-📫 **Connect with Me**
-* **LinkedIn:** [Your LinkedIn Link Here]
-* **Email:** [Your Professional Email Here]
+📫 **Contact Me**
+* **Email:** [norahazizal33@gmail.com](mailto:norahazizal33@gmail.com)
 <!--
 **NorahAbdulaziz33/NorahAbdulaziz33** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
