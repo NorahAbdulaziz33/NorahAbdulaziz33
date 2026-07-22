@@ -11,7 +11,7 @@ I am an **Information Systems Student** learning data analysis, working with SQL
 * **Visualization:** Matplotlib, Streamlit
 * **Certifications & Training:** 
   * 🎓 [Microsoft Certified: Azure AI Fundamentals (AI-900)](https://learn.microsoft.com/api/credentials/share/en-us/NourahAziz-9804/7670838E163E5E9A?sharingId=7EC7030839378090)
-  * 📜 **Microsoft Azure Fundamentals (AI Empowerment / ICAIRE Elevate Program)** – 26-Hour Intensive Training (Spectrum Networks / ICAIRE)[cite: 5]
+  * 📜 **Microsoft Azure Fundamentals (AI Empowerment / ICAIRE Elevate Program)** – 26-Hour Training 
 
 ---
 
@@ -27,17 +27,17 @@ I am an **Information Systems Student** learning data analysis, working with SQL
 ---
 
 ### 2. 🌍 World Layoffs Project (SQL)
-A practice project using **MySQL Workbench** to work through data cleaning and basic exploratory queries on a dataset of global tech layoffs[cite: 1, 2]:
+A practice project using **MySQL Workbench** to work through data cleaning and basic exploratory queries on a dataset of global tech layoffs
 
 #### 🧹 Data Cleaning ([`data cleaning project.sql`](./data%20cleaning%20project.sql))
-* **Duplicates:** Practiced identifying and deleting duplicate rows using CTEs and `ROW_NUMBER()`[cite: 1].
-* **Standardization:** Used `TRIM()` for extra spaces, standardized text variations (like `'Crypto'`), and formatted dates using `STR_TO_DATE()`[cite: 1].
-* **Null Values:** Filled in missing industry fields using self-joins where matching company data existed[cite: 1].
+* **Duplicates:** Practiced identifying and deleting duplicate rows 
+* **Standardization:** Used `TRIM()` for extra spaces, standardized text variations (like `'Crypto'`), and formatted dates using `STR_TO_DATE()`
+* **Null Values:** Filled in missing industry fields using self-joins where matching company data existed
 
 #### 🔍 Exploratory Data Analysis ([`Exploratory data analysis.sql`](./Exploratory%20data%20analysis.sql))
-* **Aggregations:** Grouped layoffs by company, industry, stage, and country[cite: 2].
-* **Rolling Totals:** Calculated cumulative totals over time using basic Window Functions[cite: 2].
-* **Rankings:** Practiced using `DENSE_RANK()` inside CTEs to list top companies by layoffs each year[cite: 2].
+* **Aggregations:** Grouped layoffs by company, industry, stage, and country
+* **Rolling Totals:** Calculated cumulative totals over time using basic Window Functions
+* **Rankings:** Practiced using `DENSE_RANK()` inside CTEs to list top companies by layoffs each year
 
 ---
 
