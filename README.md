@@ -6,7 +6,7 @@ I am an **Information Systems Student** learning data analysis, working with SQL
 
 ## 🛠️ Skills & Certifications
 
-* **Database & Querying:** SQL (MySQL Workbench), Data Cleaning, Basic Exploratory Data Analysis (EDA)
+* **Database & Querying:** SQL (MySQL Workbench), Data Cleaning, Basic Exploratory Data Analysis 
 * **Data Tools:** Microsoft Excel (PivotTables & Dashboards), Python (Pandas, NumPy)
 * **Visualization:** Matplotlib, Streamlit
 * **Certifications & Training:** 
